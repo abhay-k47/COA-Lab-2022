@@ -1,0 +1,4 @@
+verilog work "Shifter.v"
+verilog work "lookup.v"
+verilog work "Adder.v"
+verilog work "Rotbytheta.v"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/akabh/assgn_5/Behavorial_Wrapper_TestBench_isim_beh.exe" -prj "C:/Users/akabh/assgn_5/Behavorial_Wrapper_TestBench_beh.prj" "work.Behavorial_Wrapper_TestBench" "work.glbl" 

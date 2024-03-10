@@ -1,0 +1,360 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Rotbytheta.twx Rotbytheta.ncd -o Rotbytheta.twr
+Rotbytheta.pcf
+
+Design file:              Rotbytheta.ncd
+Physical constraint file: Rotbytheta.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+theta<0>       |x_out<0>       |   11.046|
+theta<0>       |x_out<1>       |   11.822|
+theta<0>       |x_out<2>       |   12.255|
+theta<0>       |x_out<3>       |   12.717|
+theta<0>       |x_out<4>       |   13.092|
+theta<0>       |x_out<5>       |   13.431|
+theta<0>       |x_out<6>       |   13.040|
+theta<0>       |x_out<7>       |   13.735|
+theta<0>       |y_out<0>       |   10.031|
+theta<0>       |y_out<1>       |   11.071|
+theta<0>       |y_out<2>       |   11.438|
+theta<0>       |y_out<3>       |   11.526|
+theta<0>       |y_out<4>       |   11.611|
+theta<0>       |y_out<5>       |   11.534|
+theta<0>       |y_out<6>       |   11.606|
+theta<0>       |y_out<7>       |   11.503|
+theta<1>       |x_out<0>       |   13.138|
+theta<1>       |x_out<1>       |   13.595|
+theta<1>       |x_out<2>       |   14.028|
+theta<1>       |x_out<3>       |   14.287|
+theta<1>       |x_out<4>       |   14.477|
+theta<1>       |x_out<5>       |   14.816|
+theta<1>       |x_out<6>       |   14.370|
+theta<1>       |x_out<7>       |   15.065|
+theta<1>       |y_out<0>       |   12.095|
+theta<1>       |y_out<1>       |   12.231|
+theta<1>       |y_out<2>       |   12.367|
+theta<1>       |y_out<3>       |   12.454|
+theta<1>       |y_out<4>       |   12.554|
+theta<1>       |y_out<5>       |   12.477|
+theta<1>       |y_out<6>       |   12.711|
+theta<1>       |y_out<7>       |   12.597|
+theta<2>       |x_out<0>       |   12.308|
+theta<2>       |x_out<1>       |   12.765|
+theta<2>       |x_out<2>       |   13.198|
+theta<2>       |x_out<3>       |   14.247|
+theta<2>       |x_out<4>       |   14.622|
+theta<2>       |x_out<5>       |   14.961|
+theta<2>       |x_out<6>       |   14.570|
+theta<2>       |x_out<7>       |   15.265|
+theta<2>       |y_out<0>       |   11.317|
+theta<2>       |y_out<1>       |   11.453|
+theta<2>       |y_out<2>       |   11.983|
+theta<2>       |y_out<3>       |   12.108|
+theta<2>       |y_out<4>       |   12.331|
+theta<2>       |y_out<5>       |   12.254|
+theta<2>       |y_out<6>       |   12.326|
+theta<2>       |y_out<7>       |   12.223|
+theta<3>       |x_out<0>       |   10.747|
+theta<3>       |x_out<1>       |   12.342|
+theta<3>       |x_out<2>       |   12.788|
+theta<3>       |x_out<3>       |   13.335|
+theta<3>       |x_out<4>       |   13.710|
+theta<3>       |x_out<5>       |   14.049|
+theta<3>       |x_out<6>       |   13.658|
+theta<3>       |x_out<7>       |   14.353|
+theta<3>       |y_out<0>       |   10.330|
+theta<3>       |y_out<1>       |   10.649|
+theta<3>       |y_out<2>       |   11.949|
+theta<3>       |y_out<3>       |   12.074|
+theta<3>       |y_out<4>       |   12.297|
+theta<3>       |y_out<5>       |   12.220|
+theta<3>       |y_out<6>       |   12.292|
+theta<3>       |y_out<7>       |   12.189|
+theta<4>       |x_out<0>       |   12.374|
+theta<4>       |x_out<1>       |   13.823|
+theta<4>       |x_out<2>       |   14.256|
+theta<4>       |x_out<3>       |   14.562|
+theta<4>       |x_out<4>       |   14.937|
+theta<4>       |x_out<5>       |   15.276|
+theta<4>       |x_out<6>       |   14.792|
+theta<4>       |x_out<7>       |   15.487|
+theta<4>       |y_out<0>       |   11.331|
+theta<4>       |y_out<1>       |   11.467|
+theta<4>       |y_out<2>       |   11.603|
+theta<4>       |y_out<3>       |   11.690|
+theta<4>       |y_out<4>       |   11.790|
+theta<4>       |y_out<5>       |   11.713|
+theta<4>       |y_out<6>       |   12.538|
+theta<4>       |y_out<7>       |   12.461|
+theta<5>       |x_out<0>       |   13.470|
+theta<5>       |x_out<1>       |   13.927|
+theta<5>       |x_out<2>       |   14.360|
+theta<5>       |x_out<3>       |   14.619|
+theta<5>       |x_out<4>       |   14.809|
+theta<5>       |x_out<5>       |   15.148|
+theta<5>       |x_out<6>       |   14.541|
+theta<5>       |x_out<7>       |   15.236|
+theta<5>       |y_out<0>       |   12.427|
+theta<5>       |y_out<1>       |   12.563|
+theta<5>       |y_out<2>       |   12.699|
+theta<5>       |y_out<3>       |   12.786|
+theta<5>       |y_out<4>       |   12.886|
+theta<5>       |y_out<5>       |   12.809|
+theta<5>       |y_out<6>       |   12.881|
+theta<5>       |y_out<7>       |   12.778|
+theta<6>       |x_out<0>       |   11.142|
+theta<6>       |x_out<1>       |   11.918|
+theta<6>       |x_out<2>       |   12.351|
+theta<6>       |x_out<3>       |   13.754|
+theta<6>       |x_out<4>       |   14.129|
+theta<6>       |x_out<5>       |   14.468|
+theta<6>       |x_out<6>       |   14.077|
+theta<6>       |x_out<7>       |   14.772|
+theta<6>       |y_out<0>       |   10.127|
+theta<6>       |y_out<1>       |   11.167|
+theta<6>       |y_out<2>       |   11.534|
+theta<6>       |y_out<3>       |   11.622|
+theta<6>       |y_out<4>       |   11.707|
+theta<6>       |y_out<5>       |   11.640|
+theta<6>       |y_out<6>       |   12.378|
+theta<6>       |y_out<7>       |   12.301|
+theta<7>       |x_out<0>       |   10.801|
+theta<7>       |x_out<1>       |   11.577|
+theta<7>       |x_out<2>       |   12.010|
+theta<7>       |x_out<3>       |   12.316|
+theta<7>       |x_out<4>       |   12.691|
+theta<7>       |x_out<5>       |   13.030|
+theta<7>       |x_out<6>       |   12.408|
+theta<7>       |x_out<7>       |   13.103|
+theta<7>       |y_out<0>       |    9.786|
+theta<7>       |y_out<1>       |   10.826|
+theta<7>       |y_out<2>       |   11.193|
+theta<7>       |y_out<3>       |   11.281|
+theta<7>       |y_out<4>       |   11.366|
+theta<7>       |y_out<5>       |   11.289|
+theta<7>       |y_out<6>       |   11.361|
+theta<7>       |y_out<7>       |   11.258|
+x<0>           |x_out<0>       |    9.877|
+x<0>           |x_out<1>       |   10.334|
+x<0>           |x_out<2>       |   10.767|
+x<0>           |x_out<3>       |   11.026|
+x<0>           |x_out<4>       |   11.216|
+x<0>           |x_out<5>       |   11.555|
+x<0>           |x_out<6>       |   10.948|
+x<0>           |x_out<7>       |   11.643|
+x<0>           |y_out<0>       |   10.215|
+x<0>           |y_out<1>       |   10.513|
+x<0>           |y_out<2>       |   10.880|
+x<0>           |y_out<3>       |   10.968|
+x<0>           |y_out<4>       |   11.258|
+x<0>           |y_out<5>       |   11.181|
+x<0>           |y_out<6>       |   11.253|
+x<0>           |y_out<7>       |   11.150|
+x<1>           |x_out<1>       |   10.008|
+x<1>           |x_out<2>       |   10.441|
+x<1>           |x_out<3>       |   10.747|
+x<1>           |x_out<4>       |   11.122|
+x<1>           |x_out<5>       |   11.461|
+x<1>           |x_out<6>       |   10.839|
+x<1>           |x_out<7>       |   11.534|
+x<1>           |y_out<0>       |   10.042|
+x<1>           |y_out<1>       |   11.292|
+x<1>           |y_out<2>       |   11.659|
+x<1>           |y_out<3>       |   11.747|
+x<1>           |y_out<4>       |   11.832|
+x<1>           |y_out<5>       |   11.755|
+x<1>           |y_out<6>       |   11.827|
+x<1>           |y_out<7>       |   11.724|
+x<2>           |x_out<2>       |   10.502|
+x<2>           |x_out<3>       |   10.921|
+x<2>           |x_out<4>       |   11.296|
+x<2>           |x_out<5>       |   11.635|
+x<2>           |x_out<6>       |   11.151|
+x<2>           |x_out<7>       |   11.846|
+x<2>           |y_out<0>       |    8.276|
+x<2>           |y_out<1>       |   10.908|
+x<2>           |y_out<2>       |   11.275|
+x<2>           |y_out<3>       |   11.363|
+x<2>           |y_out<4>       |   11.448|
+x<2>           |y_out<5>       |   11.371|
+x<2>           |y_out<6>       |   11.443|
+x<2>           |y_out<7>       |   11.340|
+x<3>           |x_out<3>       |    9.520|
+x<3>           |x_out<4>       |    9.895|
+x<3>           |x_out<5>       |   10.248|
+x<3>           |x_out<6>       |    9.947|
+x<3>           |x_out<7>       |   10.642|
+x<3>           |y_out<0>       |   10.224|
+x<3>           |y_out<1>       |   10.360|
+x<3>           |y_out<2>       |   11.242|
+x<3>           |y_out<3>       |   11.367|
+x<3>           |y_out<4>       |   11.590|
+x<3>           |y_out<5>       |   11.513|
+x<3>           |y_out<6>       |   11.585|
+x<3>           |y_out<7>       |   11.482|
+x<4>           |x_out<4>       |   10.455|
+x<4>           |x_out<5>       |   11.113|
+x<4>           |x_out<6>       |   10.812|
+x<4>           |x_out<7>       |   11.507|
+x<4>           |y_out<1>       |   11.287|
+x<4>           |y_out<2>       |   11.654|
+x<4>           |y_out<3>       |   11.742|
+x<4>           |y_out<4>       |   11.827|
+x<4>           |y_out<5>       |   11.750|
+x<4>           |y_out<6>       |   11.822|
+x<4>           |y_out<7>       |   11.719|
+x<5>           |x_out<5>       |    9.969|
+x<5>           |x_out<6>       |    9.668|
+x<5>           |x_out<7>       |   10.363|
+x<5>           |y_out<2>       |   11.124|
+x<5>           |y_out<3>       |   11.714|
+x<5>           |y_out<4>       |   12.030|
+x<5>           |y_out<5>       |   11.953|
+x<5>           |y_out<6>       |   12.025|
+x<5>           |y_out<7>       |   11.922|
+x<6>           |x_out<6>       |   10.115|
+x<6>           |x_out<7>       |   10.854|
+x<6>           |y_out<3>       |   10.323|
+x<6>           |y_out<4>       |   10.639|
+x<6>           |y_out<5>       |   11.534|
+x<6>           |y_out<6>       |   12.038|
+x<6>           |y_out<7>       |   11.924|
+x<7>           |x_out<7>       |    9.299|
+x<7>           |y_out<4>       |   10.183|
+x<7>           |y_out<5>       |   11.579|
+x<7>           |y_out<6>       |   12.083|
+x<7>           |y_out<7>       |   11.969|
+y<0>           |x_out<0>       |   11.125|
+y<0>           |x_out<1>       |   11.752|
+y<0>           |x_out<2>       |   12.185|
+y<0>           |x_out<3>       |   13.363|
+y<0>           |x_out<4>       |   13.738|
+y<0>           |x_out<5>       |   14.077|
+y<0>           |x_out<6>       |   13.686|
+y<0>           |x_out<7>       |   14.381|
+y<0>           |y_out<0>       |    8.290|
+y<0>           |y_out<1>       |    8.426|
+y<0>           |y_out<2>       |    8.562|
+y<0>           |y_out<3>       |    8.649|
+y<0>           |y_out<4>       |    8.749|
+y<0>           |y_out<5>       |    8.672|
+y<0>           |y_out<6>       |    8.744|
+y<0>           |y_out<7>       |    8.641|
+y<1>           |x_out<0>       |   10.898|
+y<1>           |x_out<1>       |   11.810|
+y<1>           |x_out<2>       |   12.243|
+y<1>           |x_out<3>       |   12.549|
+y<1>           |x_out<4>       |   12.924|
+y<1>           |x_out<5>       |   13.263|
+y<1>           |x_out<6>       |   12.746|
+y<1>           |x_out<7>       |   13.441|
+y<1>           |y_out<1>       |    8.454|
+y<1>           |y_out<2>       |    8.821|
+y<1>           |y_out<3>       |    8.909|
+y<1>           |y_out<4>       |    8.994|
+y<1>           |y_out<5>       |    8.917|
+y<1>           |y_out<6>       |    8.989|
+y<1>           |y_out<7>       |    8.886|
+y<2>           |x_out<0>       |    9.195|
+y<2>           |x_out<1>       |   11.963|
+y<2>           |x_out<2>       |   12.396|
+y<2>           |x_out<3>       |   13.407|
+y<2>           |x_out<4>       |   13.782|
+y<2>           |x_out<5>       |   14.121|
+y<2>           |x_out<6>       |   13.730|
+y<2>           |x_out<7>       |   14.425|
+y<2>           |y_out<2>       |    9.503|
+y<2>           |y_out<3>       |    9.628|
+y<2>           |y_out<4>       |    9.851|
+y<2>           |y_out<5>       |    9.774|
+y<2>           |y_out<6>       |    9.846|
+y<2>           |y_out<7>       |    9.743|
+y<3>           |x_out<0>       |   11.809|
+y<3>           |x_out<1>       |   12.529|
+y<3>           |x_out<2>       |   12.962|
+y<3>           |x_out<3>       |   13.268|
+y<3>           |x_out<4>       |   13.643|
+y<3>           |x_out<5>       |   13.982|
+y<3>           |x_out<6>       |   13.360|
+y<3>           |x_out<7>       |   14.055|
+y<3>           |y_out<3>       |    9.325|
+y<3>           |y_out<4>       |    9.641|
+y<3>           |y_out<5>       |    9.564|
+y<3>           |y_out<6>       |    9.636|
+y<3>           |y_out<7>       |    9.533|
+y<4>           |x_out<1>       |   11.543|
+y<4>           |x_out<2>       |   11.976|
+y<4>           |x_out<3>       |   12.773|
+y<4>           |x_out<4>       |   13.148|
+y<4>           |x_out<5>       |   13.487|
+y<4>           |x_out<6>       |   13.096|
+y<4>           |x_out<7>       |   13.791|
+y<4>           |y_out<4>       |    9.494|
+y<4>           |y_out<5>       |    9.488|
+y<4>           |y_out<6>       |    9.761|
+y<4>           |y_out<7>       |    9.646|
+y<5>           |x_out<2>       |   11.681|
+y<5>           |x_out<3>       |   12.412|
+y<5>           |x_out<4>       |   12.787|
+y<5>           |x_out<5>       |   13.126|
+y<5>           |x_out<6>       |   12.785|
+y<5>           |x_out<7>       |   13.480|
+y<5>           |y_out<5>       |    9.155|
+y<5>           |y_out<6>       |    9.659|
+y<5>           |y_out<7>       |    9.545|
+y<6>           |x_out<3>       |   12.150|
+y<6>           |x_out<4>       |   12.525|
+y<6>           |x_out<5>       |   12.864|
+y<6>           |x_out<6>       |   12.473|
+y<6>           |x_out<7>       |   13.168|
+y<6>           |y_out<6>       |    9.029|
+y<6>           |y_out<7>       |    8.952|
+y<7>           |x_out<4>       |   12.577|
+y<7>           |x_out<5>       |   13.235|
+y<7>           |x_out<6>       |   12.934|
+y<7>           |x_out<7>       |   13.629|
+y<7>           |y_out<7>       |    9.013|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 02 17:20:36 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4997 MB
+
+
+

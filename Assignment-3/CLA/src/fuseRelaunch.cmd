@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_rippleTestBench_isim_beh.exe" -prj "C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_rippleTestBench_beh.prj" "work.CLA_16_bit_rippleTestBench" "work.glbl" 

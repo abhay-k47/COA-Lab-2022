@@ -1,0 +1,14 @@
+vhdtdtfi -lib work C:/Users/akabh/assgn_5/Structural_Wrapper.v -lang verilog -prj assgn_5 -o Structural_Wrapper.spl -module Structural_Wrapper -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Structural_Wrapper.spl C:/Users/akabh/assgn_5/Structural_Wrapper.sym 
+xst -intstyle ise -ifn "C:/Users/akabh/assgn_5/Structural_Wrapper.xst" -ofn "C:/Users/akabh/assgn_5/Structural_Wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_constraints.ucf -p xc7a100t-csg324-3 Structural_Wrapper.ngc Structural_Wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Structural_Wrapper_map.ncd Structural_Wrapper.ngd Structural_Wrapper.pcf 
+par -w -intstyle ise -ol high -mt off Structural_Wrapper_map.ncd Structural_Wrapper.ncd Structural_Wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Structural_Wrapper.twx Structural_Wrapper.ncd -o Structural_Wrapper.twr Structural_Wrapper.pcf -ucf pin_constraints.ucf 
+bitgen -intstyle ise -f Structural_Wrapper.ut Structural_Wrapper.ncd 
+xst -intstyle ise -ifn "C:/Users/akabh/assgn_5/Structural_Wrapper.xst" -ofn "C:/Users/akabh/assgn_5/Structural_Wrapper.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_constraints.ucf -p xc7a100t-csg324-3 Structural_Wrapper.ngc Structural_Wrapper.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Structural_Wrapper_map.ncd Structural_Wrapper.ngd Structural_Wrapper.pcf 
+par -w -intstyle ise -ol high -mt off Structural_Wrapper_map.ncd Structural_Wrapper.ncd Structural_Wrapper.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Structural_Wrapper.twx Structural_Wrapper.ncd -o Structural_Wrapper.twr Structural_Wrapper.pcf -ucf pin_constraints.ucf 
+bitgen -intstyle ise -f Structural_Wrapper.ut Structural_Wrapper.ncd 

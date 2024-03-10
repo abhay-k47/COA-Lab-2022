@@ -1,0 +1,6 @@
+verilog work "Shifter.v"
+verilog work "lookup.v"
+verilog work "Adder.v"
+verilog work "Rotbytheta.v"
+verilog work "TestBench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

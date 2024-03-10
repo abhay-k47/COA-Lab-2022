@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+CLA_16_bit_lookahead instance_name (
+    .a(a), 
+    .b(b), 
+    .c_in(c_in), 
+    .s(s), 
+    .c_out(c_out), 
+    .p(p), 
+    .g(g)
+    );
+
+

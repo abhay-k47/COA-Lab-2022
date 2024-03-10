@@ -1,0 +1,13 @@
+[Inputs]
+c_in
+=a[15:0]=
+=b[15:0]=
+[Outputs]
+c_out
+p
+g
+=s[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel CLA_16_bit_lookahead
+

@@ -1,0 +1,7 @@
+verilog work "DFF.v"
+verilog work "add_by_one.v"
+verilog work "Counter_4_bit_Structural.v"
+verilog work "Clock_divider.v"
+verilog work "Counter_4_bit_fpga.v"
+verilog work "Counter_4_bit_top_TestBench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

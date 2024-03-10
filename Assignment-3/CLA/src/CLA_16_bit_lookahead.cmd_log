@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_lookahead.xst" -ofn "C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_lookahead.syr" 
+xst -intstyle ise -ifn "C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_lookahead.xst" -ofn "C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_lookahead.syr" 
+vhdtdtfi -lib work C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_lookahead.v -lang verilog -prj assgn3.2_Grp60 -o CLA_16_bit_lookahead.spl -module CLA_16_bit_lookahead -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 CLA_16_bit_lookahead.spl C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_lookahead.sym 
+vhdtdtfi -lang verilog -prj assgn3.2_Grp60 -o C:/Users/akabh/assgn3.2_Grp60/CLA_16_bit_lookahead.tfi -lib work C:/Users/akabh/assgn3.2_Grp60//CLA_16_bit_lookahead.v -module CLA_16_bit_lookahead -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

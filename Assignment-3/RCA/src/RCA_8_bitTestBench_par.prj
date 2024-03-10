@@ -1,0 +1,2 @@
+verilog work "netgen/par/RCA_8_bit_timesim.v"
+verilog work "RCA_8_bitTestBench.v"

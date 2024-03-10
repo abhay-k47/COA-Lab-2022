@@ -1,0 +1,4 @@
+verilog isim_temp "LookaheadCarryUnit.v"
+verilog isim_temp "CLA_4_bit_augmented.v"
+verilog isim_temp "CLA_16_bit_lookahead.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

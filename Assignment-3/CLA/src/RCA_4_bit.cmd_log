@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/akabh/assgn3.2_Grp60/RCA_4_bit.xst" -ofn "C:/Users/akabh/assgn3.2_Grp60/RCA_4_bit.syr" 

@@ -1,0 +1,9 @@
+[Inputs]
+clk_high
+rstn
+[Outputs]
+=counter[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Structural_Wrapper
+

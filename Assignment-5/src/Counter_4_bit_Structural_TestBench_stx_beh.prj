@@ -1,0 +1,5 @@
+verilog isim_temp "DFF.v"
+verilog isim_temp "add_by_one.v"
+verilog isim_temp "Counter_4_bit_Structural.v"
+verilog isim_temp "Counter_4_bit_Structural_TestBench.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

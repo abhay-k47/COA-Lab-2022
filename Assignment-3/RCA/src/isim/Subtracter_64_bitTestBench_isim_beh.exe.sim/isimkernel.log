@@ -1,0 +1,29 @@
+Command line:
+   Subtracter_64_bitTestBench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55331
+
+Fri Aug 26 16:33:22 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5154.21 Meg
+
+ Total Signals          : 1129
+ Total Nets             : 462
+ Total Signal Drivers   : 328
+ Total Blocks           : 209
+ Total Primitive Blocks : 129
+ Total Processes        : 330
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 671
+Total Line Count : 279
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5154.21 Meg
+
+Fri Aug 26 16:33:33 2022
+

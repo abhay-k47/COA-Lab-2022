@@ -1,0 +1,5 @@
+verilog work "Counter_4_bit_behavorial.v"
+verilog work "Clock_divider.v"
+verilog work "Behavorial_Wrapper.v"
+verilog work "Behavorial_Wrapper_TestBench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

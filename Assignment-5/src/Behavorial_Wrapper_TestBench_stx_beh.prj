@@ -1,0 +1,5 @@
+verilog isim_temp "Counter_4_bit_behavorial.v"
+verilog isim_temp "Clock_divider.v"
+verilog isim_temp "Behavorial_Wrapper.v"
+verilog isim_temp "Behavorial_Wrapper_TestBench.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

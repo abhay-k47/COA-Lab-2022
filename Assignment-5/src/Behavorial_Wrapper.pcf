@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Sep 14 16:33:33 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk_high" LOCATE = SITE "E3" LEVEL 1;
+COMP "counter<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "counter<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "counter<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "counter<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "rstn" LOCATE = SITE "V10" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "clkDiv/clock_out" BEL "clkDiv/n_cycle_0" BEL
+        "clkDiv/n_cycle_1" BEL "clkDiv/n_cycle_2" BEL "clkDiv/n_cycle_3" BEL
+        "clkDiv/n_cycle_4" BEL "clkDiv/n_cycle_5" BEL "clkDiv/n_cycle_6" BEL
+        "clkDiv/n_cycle_7" BEL "clkDiv/n_cycle_8" BEL "clkDiv/n_cycle_9" BEL
+        "clkDiv/n_cycle_10" BEL "clkDiv/n_cycle_11" BEL "clkDiv/n_cycle_12"
+        BEL "clkDiv/n_cycle_13" BEL "clkDiv/n_cycle_14" BEL
+        "clkDiv/n_cycle_15" BEL "clkDiv/n_cycle_16" BEL "clkDiv/n_cycle_17"
+        BEL "clkDiv/n_cycle_18" BEL "clkDiv/n_cycle_19" BEL
+        "clkDiv/n_cycle_20" BEL "clkDiv/n_cycle_21" BEL "clkDiv/n_cycle_22"
+        BEL "clkDiv/n_cycle_23" BEL "clkDiv/n_cycle_24" BEL
+        "clkDiv/n_cycle_25" BEL "clkDiv/n_cycle_26" BEL "clkDiv/n_cycle_27"
+        BEL "clk_high_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

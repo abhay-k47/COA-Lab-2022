@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\akabh\assgn_5\Structural_Wrapper.ncd
+OUTFILE=C:\Users\akabh\assgn_5\Structural_Wrapper.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\akabh\assgn_5
+LICENSE=WebPack
+USER_INFO=212527814_0_0_015

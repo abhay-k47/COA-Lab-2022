@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/Test_grp60/Rotbytheta.xst" -ofn "D:/Test_grp60/Rotbytheta.syr" 
+xst -intstyle ise -ifn "D:/Test_grp60/Rotbytheta.xst" -ofn "D:/Test_grp60/Rotbytheta.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Rotbytheta.ngc Rotbytheta_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Rotbytheta.ngc Rotbytheta.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Rotbytheta_map.ncd Rotbytheta.ngd Rotbytheta.pcf 
+par -w -intstyle ise -ol high -mt off Rotbytheta_map.ncd Rotbytheta.ncd Rotbytheta.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Rotbytheta.twx Rotbytheta.ncd -o Rotbytheta.twr Rotbytheta.pcf 

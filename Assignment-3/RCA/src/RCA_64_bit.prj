@@ -1,0 +1,6 @@
+verilog work "Half_Adder.v"
+verilog work "Full_Adder.v"
+verilog work "RCA_8_bit.v"
+verilog work "RCA_16_bit.v"
+verilog work "RCA_32_bit.v"
+verilog work "RCA_64_bit.v"

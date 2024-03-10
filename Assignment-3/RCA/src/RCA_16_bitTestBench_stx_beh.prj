@@ -1,0 +1,6 @@
+verilog isim_temp "Half_Adder.v"
+verilog isim_temp "Full_Adder.v"
+verilog isim_temp "RCA_8_bit.v"
+verilog isim_temp "RCA_16_bit.v"
+verilog isim_temp "RCA_16_bitTestBench.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

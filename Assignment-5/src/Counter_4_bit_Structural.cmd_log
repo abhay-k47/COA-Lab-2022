@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/akabh/assgn_5/Counter_4_bit_Structural.xst" -ofn "C:/Users/akabh/assgn_5/Counter_4_bit_Structural.syr" 

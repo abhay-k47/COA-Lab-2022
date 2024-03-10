@@ -1,0 +1,3 @@
+verilog work "Counter_4_bit_behavorial.v"
+verilog work "Clock_divider.v"
+verilog work "Behavorial_Wrapper.v"
